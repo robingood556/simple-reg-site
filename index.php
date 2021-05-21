@@ -20,6 +20,7 @@ if ($_SESSION['user']) {
 
 <!-- Форма авторизации -->
 
+    
     <form action="vendor/signin.php" method="post">
         <label>Логин</label>
         <input type="text" name="login" placeholder="Введите свой логин">
